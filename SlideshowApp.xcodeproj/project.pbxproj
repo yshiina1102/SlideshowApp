@@ -13,7 +13,7 @@
 		D841578524448A2000FBBE26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D841578324448A2000FBBE26 /* Main.storyboard */; };
 		D841578724448A2300FBBE26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D841578624448A2300FBBE26 /* Assets.xcassets */; };
 		D841578A24448A2300FBBE26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D841578824448A2300FBBE26 /* LaunchScreen.storyboard */; };
-		D841579224448D3000FBBE26 /* EnlargedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841579124448D3000FBBE26 /* EnlargedViewController.swift */; };
+		D8415794244490CE00FBBE26 /* EnlargedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8415793244490CE00FBBE26 /* EnlargedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		D841578624448A2300FBBE26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D841578924448A2300FBBE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D841578B24448A2300FBBE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D841579124448D3000FBBE26 /* EnlargedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargedViewController.swift; sourceTree = "<group>"; };
+		D8415793244490CE00FBBE26 /* EnlargedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				D841578624448A2300FBBE26 /* Assets.xcassets */,
 				D841578824448A2300FBBE26 /* LaunchScreen.storyboard */,
 				D841578B24448A2300FBBE26 /* Info.plist */,
-				D841579124448D3000FBBE26 /* EnlargedViewController.swift */,
+				D8415793244490CE00FBBE26 /* EnlargedViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D841579224448D3000FBBE26 /* EnlargedViewController.swift in Sources */,
+				D8415794244490CE00FBBE26 /* EnlargedViewController.swift in Sources */,
 				D841578224448A2000FBBE26 /* ViewController.swift in Sources */,
 				D841577E24448A2000FBBE26 /* AppDelegate.swift in Sources */,
 				D841578024448A2000FBBE26 /* SceneDelegate.swift in Sources */,

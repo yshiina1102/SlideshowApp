@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     @IBAction func stertButton(_ sender: Any) {  // 再生ボタン
         // 動作中のタイマーを1つに保つために、 timer が存在しない場合だけ、タイマーを生成して動作させる
         if self.timer == nil {
-            self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(updateImage), userInfo: nil, repeats: true)
+            self.timer =  Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(updateImage), userInfo: nil, repeats: true)
             // 進む・戻るボタンの無効化
             preButton.isEnabled = false
             posButton.isEnabled = false
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func updateImage(timer: Timer) {
+    @objc func updateImage(timer: Timer) {
         self.index += 1
         if self.index == slideImages.count {
             self.index = 0
@@ -87,7 +87,7 @@ class ViewController: UIViewController {
         slideImageView.image = UIImage(named:self.slideImages[self.index])
     }
 
-    func tapGesture(sender: UITapGestureRecognizer){
+    @objc func tapGesture(sender: UITapGestureRecognizer){
         if self.timer != nil {
             self.timer.invalidate()   // 現在のタイマーを破棄する
             self.timer = nil          // startTimer() の timer == nil で判断するために、 timer = nil としておく
