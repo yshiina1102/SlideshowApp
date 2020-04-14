@@ -50,6 +50,10 @@
 		D841577124448A2000FBBE26 = {
 			isa = PBXGroup;
 			children = (
+				D84157952444937900FBBE26 /* slide01.jpg */,
+				D84157982444937A00FBBE26 /* slide02.jpg */,
+				D84157972444937A00FBBE26 /* slide03.jpg */,
+				D84157962444937900FBBE26 /* slide04.jpg */,
 				D841577C24448A2000FBBE26 /* SlideshowApp */,
 				D841577B24448A2000FBBE26 /* Products */,
 			);
@@ -74,10 +78,6 @@
 				D841578824448A2300FBBE26 /* LaunchScreen.storyboard */,
 				D841578B24448A2300FBBE26 /* Info.plist */,
 				D8415793244490CE00FBBE26 /* EnlargedViewController.swift */,
-				D84157952444937900FBBE26 /* slide01.jpg */,
-				D84157982444937A00FBBE26 /* slide02.jpg */,
-				D84157972444937A00FBBE26 /* slide03.jpg */,
-				D84157962444937900FBBE26 /* slide04.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
